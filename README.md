@@ -3,10 +3,12 @@
 
 # LogActorComponents
 Purpose: Logs the components of a specified actor.
+
 Parameters:
 AActor* Actor: The actor whose components are to be logged.
 FString& FilePath: The file path for the log file.
 FString& FileName: The name of the log file.
+
 Description: This function iterates through all components of the given actor and logs their names into a file.
 # LogSystemTime
 Purpose: Logs the current system time.
